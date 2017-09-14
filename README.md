@@ -3,16 +3,16 @@ Bootstrap of [WenchaoD's FSCalendar](https://github.com/WenchaoD/FSCalendar) fra
 FSCalendarBootstrap is an easy, out-of-the-box calendar class designed for iOS applications. It was designed to implement an option to change the calendar’s year.
 
 ### Selection
-![4](https://raw.githubusercontent.com/danielbogomazov/FSCalendarBootstrap/master/Images/4.gif)
+![1](https://raw.githubusercontent.com/danielbogomazov/FSCalendarBootstrap/master/Images/4.gif)
 
 ### Invalid Year Selection
-![1](https://raw.githubusercontent.com/danielbogomazov/FSCalendarBootstrap/master/Images/1.gif)
+![2](https://raw.githubusercontent.com/danielbogomazov/FSCalendarBootstrap/master/Images/1.gif)
 
 ### Traversal to Minimum Date
 ![3](https://raw.githubusercontent.com/danielbogomazov/FSCalendarBootstrap/master/Images/3.gif)
 
 ### Traversal to Maximum Date
-![2](https://raw.githubusercontent.com/danielbogomazov/FSCalendarBootstrap/master/Images/2.gif)
+![4](https://raw.githubusercontent.com/danielbogomazov/FSCalendarBootstrap/master/Images/2.gif)
 
 
 ## Getting Started 
