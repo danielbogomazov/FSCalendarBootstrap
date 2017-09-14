@@ -45,7 +45,7 @@ Please see the **Examples** folder for examples of how FSCalendarBootstrap can b
 Any additional functionalities that are not currently implemented into the bootstrap can be found on WenchaoD's FSCalendar github page.
 
 # License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 # Acknowledgment
 Thank you to WenchaoD for the FSCalendar framework.
