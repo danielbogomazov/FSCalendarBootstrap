@@ -2,10 +2,18 @@
 Bootstrap of [WenchaoD's FSCalendar](https://github.com/WenchaoD/FSCalendar) framework.
 FSCalendarBootstrap is an easy, out-of-the-box calendar class designed for iOS applications. It was designed to implement an option to change the calendar’s year.
 
-![1](https://raw.githubusercontent.com/danielbogomazov/FSCalendarBootstrap/master/Images/1.gif)
-![2](https://raw.githubusercontent.com/danielbogomazov/FSCalendarBootstrap/master/Images/2.gif)
-![3](https://raw.githubusercontent.com/danielbogomazov/FSCalendarBootstrap/master/Images/3.gif)
+### Selection
 ![4](https://raw.githubusercontent.com/danielbogomazov/FSCalendarBootstrap/master/Images/4.gif)
+
+### Invalid Year Selection
+![1](https://raw.githubusercontent.com/danielbogomazov/FSCalendarBootstrap/master/Images/1.gif)
+
+### Traversal to Minimum Date
+![3](https://raw.githubusercontent.com/danielbogomazov/FSCalendarBootstrap/master/Images/3.gif)
+
+### Traversal to Maximum Date
+![2](https://raw.githubusercontent.com/danielbogomazov/FSCalendarBootstrap/master/Images/2.gif)
+
 
 ## Getting Started 
 Copy CalendarView.swift into your project directory. Extend classes that use CalendarView with **CalendarDelegate**.
