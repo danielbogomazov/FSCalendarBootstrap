@@ -184,10 +184,10 @@ class CalendarView: UIView, FSCalendarDataSource {
         if !CharacterSet.decimalDigits.isSuperset(of: newCharacters) {
             /* New characters are not numeric characters */
             return false
-        } else if newSubjectString.characters.count > 4 {
+        } else if newSubjectString.count > 4 {
             /* Year field too long - should only be 4 characters */
             return false
-        } else if newSubjectString.characters.count == self.kMaxYearCharactersCount {
+        } else if newSubjectString.count == self.kMaxYearCharactersCount {
             /* Checks if the year is valid */
             textField.text = newSubjectString
             self.view.endEditing(true)
@@ -250,7 +250,7 @@ class CalendarView: UIView, FSCalendarDataSource {
         let pageMonth = dateFormatter.string(from: self.calendar.currentPage)
         
         /* Year must be 'kMaxYearCharactersCount' characters long */
-        if self.yearTextField.text?.characters.count != self.kMaxYearCharactersCount {
+        if self.yearTextField.text?.count != self.kMaxYearCharactersCount {
             shakeTextFieldAnimation(textField: self.yearTextField)
             self.yearTextField.text = pageYear
             return false
@@ -315,7 +315,7 @@ extension CalendarView: UITextFieldDelegate {
                 return false
             }
         }
-        if string.characters.count > limit {
+        if string.count > limit {
             return false
         }
         return true
